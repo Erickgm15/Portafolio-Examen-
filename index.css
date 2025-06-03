@@ -1,0 +1,27 @@
+.Panel{
+    width: 45rem;
+    height: 48px;
+    margin: auto;
+    margin-top: 5rem;
+    background-color: black;
+    display: flex;  
+    align-items: center;
+  
+}
+
+.Pollo{
+    color: white;
+}
+
+.Parrafo1{
+    margin-left: 42rem;
+    color: blueviolet;
+    font-family: monospace;
+}
+
+.Caja1{
+    margin-top: 20px;
+    margin-left: 55rem;
+    color: blueviolet;
+    font-family: monospace;
+}
