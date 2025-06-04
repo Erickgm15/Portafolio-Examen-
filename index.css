@@ -1,27 +1,64 @@
-.Panel{
-    width: 45rem;
-    height: 48px;
-    margin: auto;
-    margin-top: 5rem;
-    background-color: black;
-    display: flex;  
-    align-items: center;
-  
+.Panel {
+  width: 100%;
+  height: 48px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
-.Pollo{
-    color: white;
+.Pollo {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
-.Parrafo1{
-    margin-left: 42rem;
-    color: blueviolet;
-    font-family: monospace;
+.Menu {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
 }
 
-.Caja1{
-    margin-top: 20px;
-    margin-left: 55rem;
-    color: blueviolet;
-    font-family: monospace;
+.Parrafo1 {
+  color: blueviolet;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 2rem auto;
+  max-width: 700px;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.Caja1 {
+  margin: 3rem auto;
+  color: blueviolet;
+  font-family: Verdana, sans-serif;
+  max-width: 700px;
+  padding: 0 1rem;
+}
+
+.Caja1 ul {
+  list-style-type: disc;
+  margin-left: 15rem;
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 600px) {
+  .Parrafo1,
+  .Caja1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .Pollo {
+    font-size: 1.1rem;
+  }
+
+  .Menu {
+    width: 28px;
+    height: 28px;
+  }
 }
