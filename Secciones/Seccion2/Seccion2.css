@@ -1,0 +1,11 @@
+.Seccion2 {
+    background-color: black;
+    color: white;
+    padding: 4rem;
+    max-width: 5000rem; 
+    max-height: 400rem;     
+    margin: 1rem ;     
+    border-radius: 1rem;   
+    box-shadow: 0 0 10px rgba(236, 225, 225, 0.5); 
+    
+  }

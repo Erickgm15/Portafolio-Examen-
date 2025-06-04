@@ -1,0 +1,56 @@
+
+.Panel2 {
+  width: 100%;
+  height: 48px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.Pollo {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.Menux {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+.Caja2 ul {
+  list-style: none;
+  padding: 4px;
+  margin: 3px;
+}
+
+.Caja2 li {
+  margin-bottom: 4rem; 
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.CajaGit {
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  margin-top: 2rem;
+}
+
+.Cajaf img{
+  width: 70px;
+  height: 65px;
+  margin-top: 1rem;
+ 
+}
