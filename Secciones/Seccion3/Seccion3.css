@@ -1,0 +1,25 @@
+.Seccion3 {
+    position: relative;       
+    height: 1500px;            
+    background-color: #0c0000; 
+    overflow: hidden;     
+    border-radius: 1rem;   
+    box-shadow: 0 0 10px rgba(236, 225, 225, 0.5);     }
+  
+  
+  
+  .Diagonal {
+    position: absolute;
+    top:10rem;      
+    left: 0;     
+    z-index: 0;
+    opacity: 0.3; 
+  }
+  
+  .Diagonal img {
+    height: 100%;        
+    object-fit: contain;
+  }
+  
+ 
+  

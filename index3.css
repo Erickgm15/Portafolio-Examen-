@@ -1,1 +1,64 @@
 
+.Panel3 {
+    width: 100%;
+    height: 48px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+  }
+  
+    
+  .Contenido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  .IMG img {
+    width: 400px;
+    height: auto;
+    margin-bottom: 5rem;
+
+    transition: box-shadow 0.3s ease;
+    border-radius: 8px;
+    
+  }
+  
+  .IMG img:hover {
+    box-shadow: 0 8px 16px rgba(252, 2, 2, 0.4); 
+  }
+
+  .Texto {
+    max-width: 500px;
+    transition: transform 0.3s, color 0.3s;
+  cursor: pointer;
+  }
+  
+  .Texto p {
+    font-size: 1.1rem;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: scale(1.1); 
+  }
+
+  .Inicio{
+    margin-left: clamp(2vw, 20vw, 30rem);
+
+  }
+
+  
+  
+  
+  
+  
+ 
+ 
