@@ -65,3 +65,22 @@
     height: 28px;
   }
 }
+
+.ContenedorImagenes img {
+  transition: box-shadow 0.3s ease;
+  border-radius: 8px; 
+}
+
+.ContenedorImagenes img:hover {
+  box-shadow: 0 8px 16px rgba(252, 2, 2, 0.4); 
+}
+
+.Caja1 li {
+  transition: transform 0.3s, color 0.3s;
+  cursor: pointer; 
+}
+
+.Caja1 li:hover {
+  transform: scale(1.1); 
+  color: #07e0fd; 
+}

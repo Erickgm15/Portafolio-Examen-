@@ -54,3 +54,25 @@
   margin-top: 1rem;
  
 }
+
+.Cajaf img,
+.CajaGit img {
+  transition: box-shadow 0.3s ease;
+  border-radius: 8px; 
+}
+
+.Cajaf img:hover,
+.CajaGit img:hover {
+  box-shadow: 0 8px 16px rgba(252, 2, 2, 0.4);
+}
+
+
+.Caja2 li {
+  transition: transform 0.3s, color 0.3s;
+  cursor: pointer; 
+}
+
+.Caja2 li:hover {
+  transform: scale(1.1); 
+  color: #07e0fd; 
+}
