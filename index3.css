@@ -67,10 +67,6 @@
   margin-top: 7rem;
 }
   
-.Caja4{
-  display: flex;
-  gap: 2rem;
-}
 
 .Hospital{
   width: 30rem;
@@ -95,4 +91,76 @@
   width: 30rem;
   height: 20rem;
   margin-top: 2rem;
+}
+
+.Compras{
+  width: 30rem;
+  height: 20rem;
+
+}
+
+.Caja4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 1.5rem;
+  justify-items: center;
+  max-width: 600px;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 5rem;
+}
+
+.Caja4 img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.Caja4 img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(243, 2, 2, 0.3);
+}
+
+.Progra{
+  margin-left: 35rem;
+  width: 45rem;
+  height: 30rem;
+}
+
+.Me{
+  margin-left: 35rem;
+  width: 45rem;
+  height: 30rem;
+  margin-bottom: 10rem;
+}
+
+.Contac{
+  margin-left: 35rem;
+  width: 45rem;
+  height: 30rem;
+  margin-bottom: -10rem;
+}
+
+.IconosPrincipales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem; /* espacio entre iconos */
+  margin-top: 2rem;
+  flex-wrap: wrap; /* se acomoda si hay poco espacio */
+}
+
+.icono {
+  width: 45px;
+  height: 45px;
+  opacity: 0.6;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.icono:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }

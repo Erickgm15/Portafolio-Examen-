@@ -76,3 +76,22 @@
   transform: scale(1.1); 
   color: #07e0fd; 
 }
+
+.Imagenp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -35rem; 
+}
+
+.Imagenp img {
+  max-width: 100%;
+  height: auto;
+  transition: box-shadow 0.3s ease;
+  border-radius: 8px;
+}
+
+.Imagenp img:hover {
+  box-shadow: 0 8px 16px rgba(252, 2, 2, 0.4);
+}
+
