@@ -1,4 +1,3 @@
-
 .Panel2 {
   width: 100%;
   height: 48px;
@@ -9,7 +8,6 @@
   padding: 0 1rem;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
 }
 
 .Pollo {
@@ -24,22 +22,30 @@
   height: 24px;
 }
 
-
-
 .Caja2 ul {
   list-style: none;
   padding: 4px;
   margin: 3px;
+  text-decoration: none;
 }
 
 .Caja2 li {
   margin-bottom: 4rem; 
   font-weight: bold;
   font-size: 2rem;
+  text-decoration: none;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: transform 0.3s, color 0.3s;
+  cursor: pointer; 
+
 }
 
-
+.Caja2 li:hover {
+  transform: scale(1.1); 
+  color: #07e0fd; 
+  text-decoration: none;
+  
+}
 
 .CajaGit {
   width: 100%;
@@ -48,14 +54,14 @@
   margin-top: 2rem;
 }
 
-.Cajaf img{
+.Cajaf img {
   width: 70px;
   height: 65px;
   margin-top: 1rem;
- 
+  transition: box-shadow 0.3s ease;
+  border-radius: 8px; 
 }
 
-.Cajaf img,
 .CajaGit img {
   transition: box-shadow 0.3s ease;
   border-radius: 8px; 
@@ -64,17 +70,6 @@
 .Cajaf img:hover,
 .CajaGit img:hover {
   box-shadow: 0 8px 16px rgba(252, 2, 2, 0.4);
-}
-
-
-.Caja2 li {
-  transition: transform 0.3s, color 0.3s;
-  cursor: pointer; 
-}
-
-.Caja2 li:hover {
-  transform: scale(1.1); 
-  color: #07e0fd; 
 }
 
 .Imagenp {
@@ -95,10 +90,47 @@
   box-shadow: 0 8px 16px rgba(252, 2, 2, 0.4);
 }
 
+/* Media query para pantallas pequeñas */
 @media screen and (max-width: 768px) {
   .Panel2 {
     flex-direction: column;
     height: auto;
     padding: 1rem;
     text-align: center;
-  }}
+  }
+
+  .CajaGit {
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+
+  .CajaGit img {
+    width: 50px;
+    height: 50px;
+  }
+
+
+  .Cajaf {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .Cajaf img {
+    width: 50px;
+    height: 50px;
+    margin-top: 0;
+  }
+
+  .Imagenp {
+    margin-top: 2rem; /* Quitamos el margen negativo para que no se superponga */
+    padding: 0 1rem;
+  }
+
+  .Imagenp img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+}
