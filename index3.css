@@ -106,7 +106,7 @@
   margin-top: 1.5rem;
   justify-items: center;
   max-width: 600px;
-  margin-left: 5rem;
+  margin-left: -5rem;
   margin-right: 5rem;
   margin-bottom: 5rem;
 }
@@ -122,20 +122,20 @@
 }
 
 .Progra{
-  margin-left: 35rem;
+  margin-left: 15rem;
   width: 45rem;
   height: 30rem;
 }
 
 .Me{
-  margin-left: 35rem;
+  margin-left: 15rem;
   width: 45rem;
   height: 30rem;
   margin-bottom: 10rem;
 }
 
 .Contac{
-  margin-left: 35rem;
+  margin-left: 15rem;
   width: 45rem;
   height: 30rem;
   margin-bottom: -10rem;
